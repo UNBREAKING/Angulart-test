@@ -1,0 +1,9 @@
+<input [(ngModel)]="row.firstField" type="number" pattern="^[ 0-9]+$" (change)="onChange()" />
+<select [(ngModel)]="row.operation" (change)="onChange()">
+  <option value="+">+</option>
+  <option value="-">-</option>
+  <option value="*">*</option>
+  <option value="/">/</option>
+</select>
+<input [(ngModel)]="row.secondField" type="number" pattern="^[ 0-9]+$" (change)="onChange()"/>
+<span class="result"> Result: {{result || 0}} </span>

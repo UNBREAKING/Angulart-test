@@ -1,0 +1,17 @@
+.addButton {
+  background: #5CFF7D;
+  border-radius: 4px;
+  font-size: 20px;
+  border: none;
+  padding: 10px 20px;
+  transition: 0.3s all ease;
+  box-shadow: 1px 1px 0 0 #D3DAD4;
+}
+
+.addButton:hover {
+  background: #0FB330;
+}
+
+li {
+  margin-bottom: 10px;
+}

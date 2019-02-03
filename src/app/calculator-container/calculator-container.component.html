@@ -1,0 +1,10 @@
+<form>
+  <ul>
+    <li *ngFor="let row of Rows">
+      <app-calculator-row [row]="row"></app-calculator-row>
+    </li>
+  </ul>
+</form>
+<button class="addButton" (click)="addRow()">
+  Add Row
+</button>
